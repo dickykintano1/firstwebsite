@@ -1,0 +1,8 @@
+body{
+    background-color: orange;
+}
+
+div, ul{
+    display: grid;
+    grid-template: 1fr;
+}
