@@ -1,10 +1,15 @@
 import React from 'react'
+import './Header.css'
 
 function Header() {
   return (
-    <div className='container text-end'>
-        Cook Web
-    </div>
+    <nav>
+      <div>
+        <h1>
+          Cook Web
+        </h1>
+      </div>
+    </nav>
   )
 }
 

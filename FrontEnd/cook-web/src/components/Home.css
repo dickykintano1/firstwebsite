@@ -2,7 +2,17 @@ body{
     background-color: orange;
 }
 
-div, ul{
-    display: grid;
-    grid-template: 1fr;
+.srchbar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.srchbar-container{
+    background-color: rebeccapurple;
+    padding: 5px 5px 5px 5px;
+}
+
+.parent{
+    background-color: blanchedalmond;
 }

@@ -20,10 +20,10 @@ class Home extends React.Component {
 		});
 
 		return(
-			<div className=''>
-				<div className=''>
+			<div className='parent'>
+				<div className='srchbar-container'>
 					<input
-            className='position-relative'
+            			className='srchbar'
 						type='search'
 						placeholder='search recipe'
 						onChange={this.onSearchChange}
