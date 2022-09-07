@@ -1,18 +1,22 @@
 body{
     background-color: orange;
+    padding-top: 60px;
 }
 
 .srchbar{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .srchbar-container{
-    background-color: rebeccapurple;
     padding: 5px 5px 5px 5px;
 }
 
 .parent{
-    background-color: blanchedalmond;
+    display: grid;
 }

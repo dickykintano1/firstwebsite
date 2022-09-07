@@ -1,11 +1,12 @@
 import React from 'react';
 import './Home.css';
+import CardList from './CardList'
 
 class Home extends React.Component {
   constructor() {
     super()
 		this.state = {
-			recipes: ['rendang', 'babi guling', 'sayur'],
+			recipes: [{id:1, name:'rendang'},{id:2, name:'babi guling'}, {id:3, name:'sayur'}],
 			searchfield: ''
 		}
   };
@@ -16,7 +17,7 @@ class Home extends React.Component {
 
 	render() {
 		const filteredRecipes = this.state.recipes.filter(recipe =>{
-			return recipe.toLowerCase().includes(this.state.searchfield.toLowerCase())
+			return recipe.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
 		});
 
 		return(
@@ -29,12 +30,12 @@ class Home extends React.Component {
 						onChange={this.onSearchChange}
 					/>
 				</div>
-
-				<ul>
-					{filteredRecipes.map((item, i) => (
+				<div>
+					{/* {filteredRecipes.map((item, i) => (
 						<li key={i}>{item}</li>
-					))}
-        </ul>
+					))} */}
+					<CardList recipes={filteredRecipes}/>
+				</div>
 			</div>
 		)
 	};
