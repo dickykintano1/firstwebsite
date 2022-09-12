@@ -1,6 +1,7 @@
 .card{
     display: inline-block;
     border-style: solid;
+    size: auto;
     transition: transform 0.5s;
     margin: 2px;
     border-radius: 20px;
@@ -11,4 +12,5 @@
 
 .card:hover{
     transform: scale(1.05);
+    z-index: -1;
 }

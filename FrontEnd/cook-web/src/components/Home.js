@@ -6,7 +6,7 @@ class Home extends React.Component {
   constructor() {
     super()
 		this.state = {
-			recipes: [{id:1, name:'rendang'},{id:2, name:'babi guling'}, {id:3, name:'sayur'}],
+			recipes: [{id:1, name:'rendang'}, {id:2, name:'babi guling'}, {id:3, name:'sayur'}, {id:4, name:'ayam pop'},{id:5, name:'babi guling'}],
 			searchfield: ''
 		}
   };
@@ -21,7 +21,7 @@ class Home extends React.Component {
 		});
 
 		return(
-			<div className='parent'>
+			<div className='content-div'>
 				<div className='srchbar-container'>
 					<input
             			className='srchbar'
@@ -30,7 +30,7 @@ class Home extends React.Component {
 						onChange={this.onSearchChange}
 					/>
 				</div>
-				<div>
+				<div className='cards-container'>
 					{/* {filteredRecipes.map((item, i) => (
 						<li key={i}>{item}</li>
 					))} */}
@@ -42,3 +42,4 @@ class Home extends React.Component {
 }
 
 export default Home;
+// {id:1, name:'rendang'},{id:2, name:'babi guling'}, {id:3, name:'sayur'}, {id:4, name:'ayam pop'},{id:5, name:'babi guling'}, {id:6, name:'sayur'}

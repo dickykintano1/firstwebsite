@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './Card'
+import './CardList.css'
 
 const CardList = ({recipes}) => {
     return (
-        <div>
+        <div className='cardlist'>
             {recipes.map((recipe, i) => {
                 return (
                     <Card 

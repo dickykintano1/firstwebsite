@@ -1,9 +1,12 @@
-.footer{
-    position: fixed;
+.footer-container {
+    background: linear-gradient(90deg, rgb(26, 23, 23), 30%, rgb(99, 99, 99) 100%);
+    color: rgb(195, 188, 124);
+    min-height: 25vh;
     left: 0;
+    right: 0;
     bottom: 0;
-    width: 100%;
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 15px;
+}
+
+.footer-wrapper {
+    display: flex;
 }
