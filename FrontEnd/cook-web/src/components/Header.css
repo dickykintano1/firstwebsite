@@ -4,6 +4,8 @@ h1{
 
 nav{
     background-color: whitesmoke;
+    left: 0;
+    right: 0;
     top: 0;
     position: absolute;
     width: 100%;
