@@ -8,6 +8,7 @@
     border-width: 2px;
     border-color: black;
     background-color: whitesmoke;
+    text-align: center;
 }
 
 .card:hover{
