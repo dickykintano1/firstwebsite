@@ -1,13 +1,22 @@
 import React from 'react'
-import './Header.css'
+import './css/Header.css'
 
 function Header() {
   return (
     <nav>
-      <div>
-        <h1>
-          Cook Web
-        </h1>
+      <div className='headerbar'>
+        <h1>Cook Web</h1>
+        <form className='navbar-srchbar' action=''>
+          <input
+            className='navbar-input'
+            type='search'
+            placeholder='search recipe'
+          />
+          <button
+            className='submit-button'
+            type='submit'>
+          </button>
+        </form>
       </div>
     </nav>
   )

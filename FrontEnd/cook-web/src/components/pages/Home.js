@@ -1,6 +1,6 @@
 import React from 'react';
-import './Home.css';
-import CardList from './CardList'
+import '../css/Home.css';
+import CardList from '../CardList'
 
 class Home extends React.Component {
   constructor() {
@@ -21,10 +21,10 @@ class Home extends React.Component {
 		});
 
 		return(
-			<div className='content-div'>
+			<div className='home-container css2'>
 				<div className='srchbar-container'>
 					<input
-            			className='srchbar'
+						className='srchbar'
 						type='search'
 						placeholder='search recipe'
 						onChange={this.onSearchChange}
@@ -42,4 +42,3 @@ class Home extends React.Component {
 }
 
 export default Home;
-// {id:1, name:'rendang'},{id:2, name:'babi guling'}, {id:3, name:'sayur'}, {id:4, name:'ayam pop'},{id:5, name:'babi guling'}, {id:6, name:'sayur'}
