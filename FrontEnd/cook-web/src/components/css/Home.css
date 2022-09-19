@@ -10,8 +10,8 @@ body{
 }
 
 .srchbar{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 20%;
+    /* width: 100%; */
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -20,5 +20,11 @@ body{
 }
 
 .srchbar-container{
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 5px 5px 5px 5px;
 }
+
+/* .cards-container{
+    margin: 0 20%;
+} */

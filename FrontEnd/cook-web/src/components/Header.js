@@ -14,7 +14,8 @@ function Header() {
           />
           <button
             className='submit-button'
-            type='submit'>
+            type='submit'
+            >
           </button>
         </form>
       </div>

@@ -1,7 +1,7 @@
 .cardlist {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    margin: 0 auto;
+    margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 0 10%;
+    /* padding: 0 10%; */
+    justify-items: center;
 }

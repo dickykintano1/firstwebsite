@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Home.css';
 import CardList from '../CardList'
+import DemoCarousel from '../Carousel'
 
 class Home extends React.Component {
   constructor() {
@@ -29,6 +30,9 @@ class Home extends React.Component {
 						placeholder='search recipe'
 						onChange={this.onSearchChange}
 					/>
+				</div>
+				<div>
+					<DemoCarousel />
 				</div>
 				<div className='cards-container'>
 					{/* {filteredRecipes.map((item, i) => (
