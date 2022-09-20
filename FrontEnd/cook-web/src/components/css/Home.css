@@ -25,6 +25,20 @@ body{
     padding: 5px 5px 5px 5px;
 }
 
+.carousel-container{
+    padding: 0 200px;
+}
+
+.text{
+    text-align: center;
+    padding: .5em 0;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+}
+
 /* .cards-container{
     margin: 0 20%;
 } */

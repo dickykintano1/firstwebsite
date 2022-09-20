@@ -23,6 +23,14 @@ class Home extends React.Component {
 
 		return(
 			<div className='home-container css2'>
+				<h1 className='text'>Welcome to Cook Web</h1><hr></hr>
+				<p>Your everyday recipes, in the end of your fingertips.<br></br>
+					Learn, submit, and find out many recipes online.
+				</p>
+				<div className='carousel-container'>
+					<DemoCarousel />
+				</div>
+				<h1 className='text'>Latest Recipes</h1><hr></hr>
 				<div className='srchbar-container'>
 					<input
 						className='srchbar'
@@ -30,9 +38,6 @@ class Home extends React.Component {
 						placeholder='search recipe'
 						onChange={this.onSearchChange}
 					/>
-				</div>
-				<div>
-					<DemoCarousel />
 				</div>
 				<div className='cards-container'>
 					{/* {filteredRecipes.map((item, i) => (
