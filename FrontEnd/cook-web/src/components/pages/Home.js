@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Home.css';
+import '../css/General.css';
 import CardList from '../CardList'
 import DemoCarousel from '../Carousel'
 
@@ -23,14 +24,14 @@ class Home extends React.Component {
 
 		return(
 			<div className='home-container css2'>
-				<h1 className='text'>Welcome to Cook Web</h1><hr></hr>
-				<p>Your everyday recipes, in the end of your fingertips.<br></br>
+				<h1 className='general-text'>Welcome to Cook Web<hr className='general-line'></hr></h1>
+				<p className='general-paragraph'>Your everyday recipes, all in one place.<br></br>
 					Learn, submit, and find out many recipes online.
 				</p>
 				<div className='carousel-container'>
 					<DemoCarousel />
 				</div>
-				<h1 className='text'>Latest Recipes</h1><hr></hr>
+				<h1 className='general-text'>Latest Recipes<hr className='general-line'></hr></h1>
 				<div className='srchbar-container'>
 					<input
 						className='srchbar'
