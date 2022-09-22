@@ -6,6 +6,7 @@
 } */
 
 .home-container{
+    padding: 10px 0;
     background-color: orange;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .carousel-container{
-    padding: 0 200px;
+    padding: 0 20%;
 }
 
 

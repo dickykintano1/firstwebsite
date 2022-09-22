@@ -1,10 +1,9 @@
 import React from 'react'
-import '../css/General.css'
 import '../css/About.css'
 
 function About(){
     return (
-        <div className='about-container'>
+        <div className='about-container css2'>
             <h1 className='general-text'>About Cook Web<hr className='general-line'></hr></h1>
             <p className='about-paragraph'>Cook Web is a space for anybody to learn, share, and improve on their cooking. You can 
                 look at what recipes other people have been cooking while you can also submit your very own recipe. 

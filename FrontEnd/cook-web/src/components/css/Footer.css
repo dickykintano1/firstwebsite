@@ -1,7 +1,7 @@
 .footer-container {
     background: linear-gradient(90deg, rgb(26, 23, 23), 30%, rgb(99, 99, 99) 100%);
     color: rgb(195, 188, 124);
-    min-height: 25vh;
+    min-height: 15vh;
     left: 0;
     right: 0;
     bottom: 0;

@@ -1,9 +1,9 @@
 body{
-    padding-top: 60px;
     left: 0;
     right: 0;
     margin: 0;
     bottom:0;
+    padding-top: 75px;
 }
 
 .about-container{
@@ -12,6 +12,6 @@ body{
 
 .about-paragraph{
     text-align: left;
-    font-size: 1.75em;
-    margin: 0 5em;
+    font-size: 2.5vw;
+    margin: 0 3em;
 }

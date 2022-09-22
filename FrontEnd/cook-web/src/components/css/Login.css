@@ -1,0 +1,22 @@
+body{
+    background-color: orange;
+    /* height: 85vh; */
+}
+
+.input-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* padding-bottom: 16.75em; */
+    /* margin: 2em 25%; */
+    /* padding: 25px 45%; */
+}
+
+.input{
+    margin: 1em 28em;
+    padding: 15px;
+}
+
+.button{
+    margin: 1em 30em;
+    padding: 10px;
+}
