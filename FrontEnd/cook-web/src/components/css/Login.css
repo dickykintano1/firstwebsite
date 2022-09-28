@@ -1,22 +1,25 @@
 body{
     background-color: orange;
+    /* min-height: 100vh; */
     /* height: 85vh; */
 }
 
 .input-container{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 15vh 15%;
     /* padding-bottom: 16.75em; */
     /* margin: 2em 25%; */
     /* padding: 25px 45%; */
 }
 
 .input{
-    margin: 1em 28em;
+    margin: 1em 20%;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .button{
-    margin: 1em 30em;
+    margin: 1em 30%;
     padding: 10px;
 }
