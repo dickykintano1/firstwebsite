@@ -1,14 +1,15 @@
 import React from 'react'
 import './css/Header.css'
+import {Link} from 'react-router-dom'
 
 function Header() {
   return (
     <nav>
       <div className='headerbar'>
         <h1>Cook Web</h1>
-        <button className='navbar-button'>About</button>
-        <button className='navbar-button'>Login</button>
-        <button className='navbar-button'>Register</button>
+        <Link to={'/about'} className='navbar-button'>About</Link>
+        <Link to={'/login'} className='navbar-button'>Login</Link>
+        <Link to={'/register'} className='navbar-button'>Register</Link>
         <form className='navbar-srchbar' action=''>
           <input
             className='navbar-input'
