@@ -9,7 +9,7 @@ function Header() {
         <h1>Cook Web</h1>
         <Link to={'/about'} className='navbar-button'>About</Link>
         <Link to={'/login'} className='navbar-button'>Login</Link>
-        <Link to={'/register'} className='navbar-button'>Register</Link>
+        <Link to={'/users/reg'} className='navbar-button'>Register</Link>
         <form className='navbar-srchbar' action=''>
           <input
             className='navbar-input'
