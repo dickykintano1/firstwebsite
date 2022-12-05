@@ -11,6 +11,14 @@ var recipeRouter = require('./routes/recipes')
 var app = express();
 var router = express.Router();
 
+const cors = require("cors");
+
+app.use(
+    cors({
+      origin: "*",
+    })
+  );
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

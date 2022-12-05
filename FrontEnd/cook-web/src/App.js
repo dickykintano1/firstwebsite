@@ -13,7 +13,6 @@ import {
 } from "react-router-dom";
 import './components/css/App.css'
 
-
 function App() {
   return (
     <Router>

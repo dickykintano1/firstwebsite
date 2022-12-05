@@ -20,6 +20,13 @@ body{
 }
 
 .button{
+    /* margin: 1em 30%; */
+    padding: 10px;
+}
+
+.button-container{
     margin: 1em 30%;
     padding: 10px;
+    display: grid;
+    padding: 0;
 }

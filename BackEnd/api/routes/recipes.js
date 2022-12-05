@@ -1,3 +1,4 @@
+const { application } = require('express');
 var express = require('express');
 var router = express.Router();
 
@@ -7,7 +8,7 @@ const pool = new Pool({
   host: 'localhost',
   database: 'firstwebsite',
   password: 'whatthefuck',
-  port: 5432,
+  port: 5432
 })
 
 router.get('/', function(req, res, next) {

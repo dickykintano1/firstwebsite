@@ -6,7 +6,7 @@ import DemoCarousel from '../Carousel'
 
 class Home extends React.Component {
   constructor() {
-    super()
+	super()
 		this.state = {
 			recipes: [{id:1, name:'rendang'}, {id:2, name:'babi guling'}, {id:3, name:'sayur'}, {id:4, name:'ayam pop'},{id:5, name:'babi guling'}],
 			searchfield: ''
