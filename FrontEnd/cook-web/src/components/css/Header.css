@@ -1,10 +1,20 @@
-h1{
+/* .title{
     text-align: left;
-    padding-left: 1.5%;
+    padding-left: 12.5%;
+} */
+
+.title { 
+    text-align: left;
+    font-style: underline;
+    width: auto;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 1em 40% 1em 12.5%;
+    padding-right: 0px;
 }
 
 nav{
-    background-color: gold;
+    background-color: hsla(51, 100%, 50%, 0.5);
     top: 0;
     position: fixed;
     width: 100%;
@@ -48,14 +58,16 @@ nav{
 }
 
 .navbar-button{
-    background-color:gold;
+    background-color:hsla(51, 100%, 50%, 0.5);
     border: none;
     text-align: center;
+    font-style: underline;
     font-size: 1.5em;
     opacity: 0.6;
     transition: 0.3s;
     cursor: pointer;
-    text-decoration: none;
+    line-height: 80px;
+    /* text-decoration: none; */
     /* padding: 16px 32px; */
     /* margin: 4px 2px; */
     /* display: inline-block; */
@@ -63,5 +75,5 @@ nav{
 
 .navbar-button:hover{
     opacity: 1;
-    background-color:orange;
+    background-color:rgb(253, 202, 106);
 }

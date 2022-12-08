@@ -6,7 +6,8 @@ function Header() {
   return (
     <nav>
       <div className='headerbar'>
-        <h1>Cook Web</h1>
+        {/* <h1 className='title'>Cook Web</h1> */}
+        <buton class='title' to={'/'}>Cook Web</buton>
         <Link to={'/about'} className='navbar-button'>About</Link>
         <Link to={'/login'} className='navbar-button'>Login</Link>
         <Link to={'/users/reg'} className='navbar-button'>Register</Link>
