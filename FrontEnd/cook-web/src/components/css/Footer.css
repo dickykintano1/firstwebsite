@@ -1,13 +1,19 @@
-.footer-container {
+/* .footer-container {
     background: linear-gradient(90deg, rgb(26, 23, 23), 30%, rgb(99, 99, 99) 100%);
     color: rgb(195, 188, 124);
     min-height: 15vh;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    /* margin-top: auto; */
-}
+} */
 
 .footer-wrapper {
     display: flex;
+} 
+
+.footer-container{
+    height: 50px;
+    background-color: black;
+    positon: fixed;
+    margin-top: 0;
 }

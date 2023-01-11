@@ -48,10 +48,9 @@ function Register() {
   }
 
   return (
-    <div className=''>
+    <html className='html-reg'>
       <form className='input-container' action=''>
         <p className='general-text'>Register</p>
-        <hr className='general-line'></hr>
         <input
           className='input'
           type='email'
@@ -76,7 +75,7 @@ function Register() {
           onClick={onSubmitButton}
         >Register</button>
       </form>
-    </div>
+    </html>
   )
 }
 

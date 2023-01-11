@@ -48,10 +48,10 @@ function Login() {
   }
 
   return (
-    <div className='css2'>
+    <html className='html-login'>
       <form className='input-container' action=''>
         <p className='general-text'>Login</p>
-        <hr className='general-line'></hr>
+        {/* <hr className='general-line'></hr> */}
         <input
           className='input'
           type='email'
@@ -70,7 +70,7 @@ function Login() {
           onClick={onSubmitButton}
         >Login</button>
       </form>
-    </div>
+    </html>
   )
 }
 

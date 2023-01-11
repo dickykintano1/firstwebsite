@@ -1,3 +1,20 @@
-.css2 {
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* .css2 {
     min-height: 100vh;
+} */
+html{
+    min-height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
 }

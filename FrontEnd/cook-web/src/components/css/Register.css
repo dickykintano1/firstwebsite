@@ -2,9 +2,11 @@
     display: inline-block;
 }
 
-body{
-    background-image: url('https://images.pexels.com/photos/2035738/pexels-photo-2035738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-repeat: no-repeat;
+.html-reg{
+    background: url('https://images.pexels.com/photos/4819658/pexels-photo-4819658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
-    background-position: left;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }

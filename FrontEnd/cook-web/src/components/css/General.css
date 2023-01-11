@@ -5,6 +5,9 @@
 
 .general-line{
     width: 75%;
+    item-align: center;
+    color: red;
+    /* padding: 0 2vw; */
 }
 
 .general-paragraph{

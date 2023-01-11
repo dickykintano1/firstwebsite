@@ -12,22 +12,25 @@ import {
   Route
 } from "react-router-dom";
 import './components/css/App.css'
+// import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
   return (
-    <Router>
-      <div>
-				<Header/>
-        <Routes>
-          <Route path="/" element={<Home/>}>Home</Route>
-          <Route path="/about" element={<About/>}>About</Route>
-          <Route path="/login" element={<Login/>}>Login</Route>
-          <Route path="/users/reg" element={<Register/>}>Register</Route>
-          <Route path="/search" element={<SearchResult/>}>Search Result</Route> 
-        </Routes>
-				<Footer/>
-      </div>
-    </Router>
+    // <ChakraProvider>
+      <Router>
+        <div>
+          <Header/>
+          <Routes>
+            <Route path="/" element={<Home/>}>Home</Route>
+            <Route path="/about" element={<About/>}>About</Route>
+            <Route path="/login" element={<Login/>}>Login</Route>
+            <Route path="/users/reg" element={<Register/>}>Register</Route>
+            <Route path="/search" element={<SearchResult/>}>Search Result</Route> 
+          </Routes>
+          <Footer/>
+        </div>
+      </Router>
+    // </ChakraProvider>
   )
 }
 

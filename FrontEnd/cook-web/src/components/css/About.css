@@ -1,13 +1,11 @@
-body{
+.about-bg{
     left: 0;
     right: 0;
     margin: 0;
     bottom:0;
-    padding-top: 75px;
-}
-
-.about-container{
-    background-color: orange;
+    top: 0;
+    padding-top: 1px;
+    /* padding-top: 75px; */
 }
 
 .about-paragraph{
