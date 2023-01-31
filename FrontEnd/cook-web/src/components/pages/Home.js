@@ -23,15 +23,15 @@ class Home extends React.Component {
 		});
 
 		return(
-			<div className='home-container css2'>
-				<h1 className='general-text'>Welcome to Cook Web<hr className='general-line'></hr></h1>
-				<p className='general-paragraph'>Your everyday recipes, all in one place.<br></br>
+			<html className='html-home'>
+				<h1 className='home-text'>Welcome to Cook Web<hr className='general-line'></hr></h1>
+				<p className='home-paragraph'>Your everyday recipes, all in one place.<br></br>
 					Learn, submit, and find out many recipes online.
 				</p>
 				<div className='carousel-container'>
 					<DemoCarousel />
 				</div>
-				<h1 className='general-text'>Latest Recipes<hr className='general-line'></hr></h1>
+				<h1 className='home-text'>Latest Recipes<hr className='general-line'></hr></h1>
 				<div className='srchbar-container'>
 					<input
 						className='srchbar'
@@ -46,7 +46,7 @@ class Home extends React.Component {
 					))} */}
 					<CardList recipes={filteredRecipes}/>
 				</div>
-			</div>
+			</html>
 		)
 	};
 }

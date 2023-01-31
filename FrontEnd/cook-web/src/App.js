@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import SearchResult from './components/pages/SearchResult';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import CreateRecipe from './components/pages/CreateRecipe';
 import {
   BrowserRouter as Router,
   Routes,
@@ -25,6 +26,7 @@ function App() {
             <Route path="/about" element={<About/>}>About</Route>
             <Route path="/login" element={<Login/>}>Login</Route>
             <Route path="/users/reg" element={<Register/>}>Register</Route>
+            <Route path="/users/create-recipe" element={<CreateRecipe/>}>Login</Route>
             <Route path="/search" element={<SearchResult/>}>Search Result</Route> 
           </Routes>
           <Footer/>

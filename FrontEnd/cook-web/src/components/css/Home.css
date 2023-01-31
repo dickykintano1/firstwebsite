@@ -5,10 +5,12 @@
     margin: 0;
 } */
 
-.home-container{
-    margin-top: 20px;
+.html-home{
+    margin-top: 80px;
     padding: 10px 0;
-    background-color: orange;
+    background: url('https://images.pexels.com/photos/8141380/pexels-photo-8141380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
 }
 
 .srchbar{
@@ -31,6 +33,17 @@
     padding: 0 20%;
 }
 
+.home-text{
+    text-align: center;
+    font-size: 2em;
+    color: snow;
+}
+
+.home-paragraph{
+    text-align: center;
+    font-size: 2em;
+    color: snow;
+}
 
 /* .cards-container{
     margin: 0 20%;

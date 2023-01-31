@@ -1,11 +1,7 @@
-.about-bg{
-    left: 0;
-    right: 0;
-    margin: 0;
-    bottom:0;
-    top: 0;
-    padding-top: 1px;
-    /* padding-top: 75px; */
+.html-about{
+    min-height: 100vh;
+    margin: 80px 5px 0 5px;
+    padding: 5px;
 }
 
 .about-paragraph{

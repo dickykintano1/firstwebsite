@@ -6,10 +6,10 @@ function Header() {
   return (
     <nav>
       <div className='headerbar'>
-        <h1 className='title'>Cook Web</h1>
-        <Link to={'/about'} className='navbar-button'>About</Link>
-        <Link to={'/login'} className='navbar-button'>Login</Link>
-        <Link to={'/users/reg'} className='navbar-button'>Register</Link>
+        <a href='/' className='title' name='title'>Cook Web</a>
+        <Link to={'/about'} className='navbar-button' name='about-button'>About</Link>
+        <Link to={'/login'} className='navbar-button' name='login-button'>Login</Link>
+        <Link to={'/users/reg'} className='navbar-button' name='reg-button'>Register</Link>
         <form className='navbar-srchbar' action=''>
           <input
             className='navbar-input'
