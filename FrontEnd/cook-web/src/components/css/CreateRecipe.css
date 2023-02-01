@@ -1,0 +1,47 @@
+.html-create-recipe{
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.input-create-recipe1{
+    margin: 1em 5vw;
+    padding: 3vh;
+    border-radius: 10px;
+}
+
+.input-create-recipe2{
+    margin: 1em 5vw;
+    padding: 3vh;
+    border-radius: 10px;
+    min-height: 20vh;
+}
+
+.input-container-create-recipe{
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 50vw;
+    margin: 20vh 5% 15vh 5%;
+    padding: 1vh;
+    background-color: rgb(255,0,255, 0.5);
+    border-radius: 10px;
+}
+
+.text-create-recipe1{
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.text-create-recipe2{
+    margin-left: 5%;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+}
+
+.button-create-recipe{
+    margin: 2vh 30% 2vh 30%;
+}
