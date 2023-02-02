@@ -64,6 +64,14 @@ function Login() {
           placeholder='Password'
           onChange={onChangePassword}
         />
+        <Link 
+          to={'/users/reg'} 
+          className='text-button' 
+          name='reg-button'>Don't have an account? Register here</Link>
+        <Link 
+          to={'/users/reg'} //need change
+          className='text-button' 
+          name='forgot-button'>Forgot your password?</Link>
         <button
           className='button'
           type='submit'

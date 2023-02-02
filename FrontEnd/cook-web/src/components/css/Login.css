@@ -20,6 +20,12 @@
     margin: auto;
 }
 
+.text-button{
+    margin: 1em auto;
+    text-decoration: underline;
+    color: black;
+}
+
 /* .button-container{
     padding: 10px;
     display: grid;
