@@ -22,6 +22,16 @@ nav{
 
 .headerbar{
     display:inline-grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    /* grid-template-area: 'title navbar-button navbar-input submit-button'; */
+    align-items: center;
+    width:100%;
+    height: 80px;
+    align-items: right;
+}
+
+.headerbar-signedIn{
+    display:inline-grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     /* grid-template-area: 'title navbar-button navbar-input submit-button'; */
     align-items: center;

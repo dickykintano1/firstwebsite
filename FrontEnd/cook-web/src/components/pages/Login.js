@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
+import React, { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import '../css/Login.css';
 import axios from "axios";
 
@@ -35,17 +35,32 @@ function Login() {
     }
 
     console.log(body);
-    console.log(result)
+    console.log(result);
+
+    // store something di local storage
+    localStorage.setItem('test', 'Test value');
+    // for cookies -> install package: 
+    
+    // removes item from local storage
+    // localStorage.removeItem(key);
+
+    
     // send API req to backend
     // axios
     //   .post('http://localhost:9000/users/reg', body)
     //   .then(res => {
     //     // check response 
-    //     //    if 200 -> redirect to login page
+    //     //    if 200 -> redirect to home page, store response to local storage
     //     //    if 400 -> username taken, popup to change username
     //     console.log(res)
     //   });
   }
+
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    localStorage.setItem('items', JSON.stringify(items));
+  }, [items]);
 
   return (
     <html className='html-login'>
@@ -64,10 +79,16 @@ function Login() {
           placeholder='Password'
           onChange={onChangePassword}
         />
-        <Link 
+        <p className='text-button'> 
+        Don't have an account?
+          <Link 
+          to={'/users/reg'} 
+          name='reg-button'>Register here</Link>
+        </p>
+        {/* <Link 
           to={'/users/reg'} 
           className='text-button' 
-          name='reg-button'>Don't have an account? Register here</Link>
+          name='reg-button'>Don't have an account? Register here</Link> */}
         <Link 
           to={'/users/reg'} //need change
           className='text-button' 
